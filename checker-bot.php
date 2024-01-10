@@ -19,7 +19,7 @@ if($message == "/start"){
 
 if($message == "/cmds"){
     send_message($chat_id,$message_id, "
-    !ch xxxxxxxxxxxxxxxx|xx|xxxx|xxx   
+    !ch 4539 0601 4240 1815
     ");
 }
 
@@ -80,7 +80,7 @@ if(strpos($message, "!ch") === 0){
 
 }
 */
-    function send_message($chat_id,$message_id, $message){
+    function send_message($chat_id,$message_id, $message){    
         $text = urlencode($message);
         $apiToken = "xxxxxx"; ///Bot api token  
         file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?chat_id=$chat_id&reply_to_message_id=$message_id&text=$text&parse_mode=html");
