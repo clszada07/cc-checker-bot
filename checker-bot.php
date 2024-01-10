@@ -19,7 +19,7 @@ if($message == "/start"){
 
 if($message == "/cmds"){
     send_message($chat_id,$message_id, "
-    !ch xxxxxxxxxxxxxxxx|xx|xxxx|xxx   
+    !ch 4532 3943 6584 8973|10|2025|785  
     ");
 }
 
